@@ -1,5 +1,5 @@
 """Migration utilities."""
 
-from .migration_manager import MigrationManager
+from pymg.migrate.migration_manager import MigrationManager
 
 __all__ = ["MigrationManager"]

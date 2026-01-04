@@ -1,6 +1,6 @@
 """Core backend for pymg."""
 
-from .installer import Installer
-from .uninstaller import Uninstaller
+from pymg.core.installer import Installer
+from pymg.core.uninstaller import Uninstaller
 
 __all__ = ["Installer", "Uninstaller"]

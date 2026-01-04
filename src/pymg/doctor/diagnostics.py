@@ -1,6 +1,7 @@
 """Diagnostics runner for pymg."""
-from .network_checker import check_network
-from .permission_checker import check_permissions
+
+from pymg.doctor.network_checker import check_network
+from pymg.doctor.permission_checker import check_permissions
 
 
 class Diagnostics:

@@ -4,7 +4,8 @@ This module exposes `main()` which wires argparse to core functions.
 """
 import argparse
 import sys
-from . import get_version
+
+from pymg import get_version
 
 
 def build_parser() -> argparse.ArgumentParser:

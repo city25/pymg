@@ -1,5 +1,5 @@
 """Alias management."""
 
-from .alias_manager import AliasManager
+from pymg.alias.alias_manager import AliasManager
 
 __all__ = ["AliasManager"]

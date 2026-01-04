@@ -1,5 +1,5 @@
 """Doctor diagnostics package."""
 
-from .diagnostics import Diagnostics
+from pymg.doctor.diagnostics import Diagnostics
 
 __all__ = ["Diagnostics"]

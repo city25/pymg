@@ -2,8 +2,8 @@
 
 ---
 **版本**: 1.0.0  
-**最后更新**: 2024-12-25  
-**项目地址**: https://github.com/python-upgrade/pymg
+**最后更新**: 2026-01-01  
+**项目地址**: https://github.com/City25/pymg
 
 ---
 
@@ -22,7 +22,7 @@ curl -fsSL https://pymg.sh/install | bash
 
 ### 手动安装
 ```bash
-git clone https://github.com/python-upgrade/pymg.git ~/.pymg
+git clone https://github.com/City25/pymg.git ~/.pymg
 echo 'export PATH="$HOME/.pymg/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
@@ -329,5 +329,5 @@ pymg config set install.prefix ~/python
 ## 贡献与反馈
 
 欢迎提交 Issue 和 Pull Request！  
-GitHub 仓库: https://github.com/python-upgrade/pymg  
+GitHub 仓库: https://github.com/City25/pymg  
 文档地址: https://pymg.sh/docs
